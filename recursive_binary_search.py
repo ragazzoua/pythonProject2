@@ -13,8 +13,8 @@ def recursive_binary_search(list, target):
                 return recursive_binary_search(list[:midpoint - 1], target)
 
 
-def verify(result):
-    print("Target found: ", result)
+def verify(result_):
+    print("Target found: ", result_)
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
