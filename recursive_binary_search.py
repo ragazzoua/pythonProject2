@@ -18,5 +18,5 @@ def verify(result_):
 
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-result = recursive_binary_search(numbers, 102)
+result = recursive_binary_search(numbers, 8)
 verify(result)
