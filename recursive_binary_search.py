@@ -10,7 +10,7 @@ def recursive_binary_search(list, target):
             if list[midpoint] < target:
                 return recursive_binary_search(list[midpoint + 1:], target)
             else:
-                return recursive_binary_search(list[:midpoint - 1], target)
+                return recursive_binary_search(list[:midpoint], target)
 
 
 def verify(result_):
